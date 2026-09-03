@@ -1,0 +1,32 @@
+{ "name": "three.js-condensed-pmb",
+  "version": "0.0.0",
+  "description": "It's three.js but without the hundreds of megabytes of textures and manuals and stuff.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/three.js-condensed-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/three.js-condensed-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/three.js-condensed-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "MIT",
+
+  "main": "package.json",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb",
+    "env": { "browser": true }
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
+}
